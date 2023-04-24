@@ -9,8 +9,8 @@ import {View,Text, StyleSheet, Dimensions, Button} from 'react-native'
 
 
 const Home = () => {
-    let weatherApiKey = 'cca1ed7fa4e178aee2ba4c2b57100253';
-    let weatherBaseEndpoint = 'https://api.openweathermap.org/data/2.5/weather?units=metric&cnt=7&appid=' + weatherApiKey
+    let weatherApiKey = '';
+    let weatherBaseEndpoint = 'https://api.openweathermap.org' + weatherApiKey
     // let weatherBaseEndpoint = 'https://api.openweathermap.org/data/2.5/forecast/daily?units=metric&cnt=7appid=' + weatherApiKey
     
 

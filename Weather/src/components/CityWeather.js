@@ -34,9 +34,9 @@ const CityWeather = () => {
     const [cod, setCod] = useState(false)
     const errormsg = "City Not Found, type correct city name !!!"
 
-    let weatherApiKey = 'cca1ed7fa4e178aee2ba4c2b57100253';
-    let weatherBaseEndpoint = 'https://api.openweathermap.org/data/2.5/weather?units=metric&cnt=7&appid=' + weatherApiKey
-    // let weatherBaseEndpoint = 'https://api.openweathermap.org/data/2.5/forecast/daily?units=metric&cnt=7appid=' + weatherApiKey
+    let weatherApiKey = '';
+    let weatherBaseEndpoint = 'https://api.openweathermap.o' + weatherApiKey
+   
    
     const getWeatherCityByName = async () => {
         
