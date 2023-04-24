@@ -34,7 +34,7 @@ const CityWeather = () => {
     const [cod, setCod] = useState(false)
     const errormsg = "City Not Found, type correct city name !!!"
 
-    let weatherApiKey = '';
+    let weatherApiKey = 'kmjn';
     let weatherBaseEndpoint = 'https://api.openweathermap.o' + weatherApiKey
    
    
